@@ -42,3 +42,14 @@ input {
   border: none;
   text-decoration: none;
 }
+.lastContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  p {
+    font-size: 120%;
+  }
+}

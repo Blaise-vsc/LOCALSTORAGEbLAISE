@@ -35,3 +35,20 @@ body {
 a {
   text-decoration: none;
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  background: rgba(49, 44, 44, 0.425);
+  backdrop-filter: blur(3px);
+  padding: 25px 35px;
+}
+form {
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+}
