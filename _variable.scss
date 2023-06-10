@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$btn-color: #096a88;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./img/cup.jpg);
+  background-size: cover;
+  background-attachment: center center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main_nav {
+  //   background: #f1faf8;
+  width: 60%;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.778);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.getStartedUp {
+  color: white;
+  padding: 20px 25px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

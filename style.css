@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./img/cup.jpg);
+  background-size: cover;
+  background-attachment: center center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main_nav {
+  width: 60%;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.778);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.getStartedUp {
+  color: white;
+  padding: 20px 25px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login_page {
+  flex-direction: row;
+}
+
+.log_nav {
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav_logine {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.btm {
+  width: 100%;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btm .btn {
+  padding: 5px 40px;
+  background: #096a88;
+  border: none;
+  font-size: 100%;
+  color: white;
+  font-weight: bolder;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 110%;
+  border: none;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

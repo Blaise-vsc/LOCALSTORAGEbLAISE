@@ -1,0 +1,44 @@
+.login_page {
+  flex-direction: row;
+}
+.log_nav {
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.nav_logine {
+  //   background: white;
+  backdrop-filter: blur(4px);
+}
+.btm {
+  width: 100%;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   background: yellowgreen;
+  .btn {
+    padding: 5px 40px;
+    background: $btn-color;
+    border: none;
+    font-size: 100%;
+    color: white;
+    font-weight: bolder;
+  }
+}
+input {
+  padding: 10px 15px;
+  font-size: 110%;
+  border: none;
+  text-decoration: none;
+}
